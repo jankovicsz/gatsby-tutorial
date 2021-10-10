@@ -7,6 +7,7 @@ import {
   navLinkItem,
   navLinkText,
 } from "./layout.module.css";
+
 const Layout = ({ pageTitle, children }) => {
   return (
     <div className={container}>
@@ -32,4 +33,5 @@ const Layout = ({ pageTitle, children }) => {
     </div>
   );
 };
+
 export default Layout;
